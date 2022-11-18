@@ -78,6 +78,14 @@ main .main-content .welcome-container .buttom-welcome-container {
     border: none;
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F2325;
+}
+
+main .main-content .welcome-container .buttom-welcome-container:hover {
+    background: #c5b9b6;
 }
 
 main .sub-content {
