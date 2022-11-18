@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .header-img {
+    height: 62px;
+    margin: 18px;
+}
+
+header .menu-container {
+    display: flex;
+    gap: 32px;
+}
+
+header .menu-container .a-menu-container {
+    color: white;
+}
+
+header .menu-container .a-menu-container:hover {
+    color: lightgray;
+}
