@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 
 body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Sarala', sans-serif;
 }
 
 header {
@@ -33,3 +36,64 @@ header .menu-container .a-menu-container {
 header .menu-container .a-menu-container:hover {
     color: lightgray;
 }
+
+main {
+    border-top: 0.4px solid lightgray;
+}
+
+main .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+main .main-content .img-main-contant {
+    height: 400px;
+}
+
+main .main-content .welcome-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+main .main-content .welcome-container .h1-welcome-container {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+main .main-content .welcome-container .h2-welcome-container {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ECD6C4;
+}
+
+main .main-content .welcome-container .buttom-welcome-container {
+    width: 185px;
+    height: 67px;
+    background: #ECD6C4;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .sub-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+main .sub-content .h3-sub-content {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 24px;
+    border-top: 0.4px solid lightgrey;
+    margin-top: 10px;
+    padding: 40px 0 25px 0;
+}
+
